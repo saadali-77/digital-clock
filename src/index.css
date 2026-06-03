@@ -1,0 +1,21 @@
+body{
+  background-image: url(./public/new.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.clock{
+  color: rgb(46, 43, 43);
+  font-size: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clock-container{
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
